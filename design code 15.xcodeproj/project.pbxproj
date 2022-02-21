@@ -11,6 +11,7 @@
 		4A78BAE527C3A21300AAAEE0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A78BAE427C3A21300AAAEE0 /* ContentView.swift */; };
 		4A78BAE727C3A21400AAAEE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A78BAE627C3A21400AAAEE0 /* Assets.xcassets */; };
 		4A78BAEA27C3A21400AAAEE0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A78BAE927C3A21400AAAEE0 /* Preview Assets.xcassets */; };
+		4A78BAF127C3E56D00AAAEE0 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A78BAF027C3E56D00AAAEE0 /* Styles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		4A78BAE427C3A21300AAAEE0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4A78BAE627C3A21400AAAEE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A78BAE927C3A21400AAAEE0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4A78BAF027C3E56D00AAAEE0 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				4A78BAE227C3A21300AAAEE0 /* design_code_15App.swift */,
 				4A78BAE427C3A21300AAAEE0 /* ContentView.swift */,
+				4A78BAF027C3E56D00AAAEE0 /* Styles.swift */,
 				4A78BAE627C3A21400AAAEE0 /* Assets.xcassets */,
 				4A78BAE827C3A21400AAAEE0 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A78BAF127C3E56D00AAAEE0 /* Styles.swift in Sources */,
 				4A78BAE527C3A21300AAAEE0 /* ContentView.swift in Sources */,
 				4A78BAE327C3A21300AAAEE0 /* design_code_15App.swift in Sources */,
 			);
