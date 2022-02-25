@@ -10,6 +10,7 @@ import SwiftUI
 struct AccountView: View {
     @State var isDeleted = false
     @State var isPinned = false
+    
     var body: some View {
         NavigationView {
             List {
@@ -21,6 +22,7 @@ struct AccountView: View {
             .navigationTitle("Account")
         }
     }
+    
     var profile: some View {
         VStack (spacing: 8) {
             Image(systemName: "person.crop.circle.fill.badge.checkmark")
