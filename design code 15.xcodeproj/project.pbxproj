@@ -19,6 +19,8 @@
 		4A94B5FC27CB807F005537B8 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A94B5FB27CB807F005537B8 /* Course.swift */; };
 		4A94B5FE27CBC489005537B8 /* MatchedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A94B5FD27CBC489005537B8 /* MatchedView.swift */; };
 		4A94B60027CBCEC4005537B8 /* CourseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A94B5FF27CBCEC4005537B8 /* CourseItem.swift */; };
+		4A94B60227CBD066005537B8 /* CourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A94B60127CBD066005537B8 /* CourseView.swift */; };
+		4A94B60427CBDAFB005537B8 /* AnimatableFontModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A94B60327CBDAFB005537B8 /* AnimatableFontModifier.swift */; };
 		4AC1F06A27C88E2C005572DC /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC1F06927C88E2C005572DC /* Tab.swift */; };
 		4AC1F06C27C897E3005572DC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC1F06B27C897E3005572DC /* HomeView.swift */; };
 		4AC1F06E27C89913005572DC /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC1F06D27C89912005572DC /* NavigationBar.swift */; };
@@ -42,6 +44,8 @@
 		4A94B5FB27CB807F005537B8 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
 		4A94B5FD27CBC489005537B8 /* MatchedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedView.swift; sourceTree = "<group>"; };
 		4A94B5FF27CBCEC4005537B8 /* CourseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseItem.swift; sourceTree = "<group>"; };
+		4A94B60127CBD066005537B8 /* CourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseView.swift; sourceTree = "<group>"; };
+		4A94B60327CBDAFB005537B8 /* AnimatableFontModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableFontModifier.swift; sourceTree = "<group>"; };
 		4AC1F06927C88E2C005572DC /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 		4AC1F06B27C897E3005572DC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		4AC1F06D27C89912005572DC /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
@@ -117,6 +121,7 @@
 				4A78BAF227C4662100AAAEE0 /* AccountView.swift */,
 				4AC1F06B27C897E3005572DC /* HomeView.swift */,
 				4A94B5FD27CBC489005537B8 /* MatchedView.swift */,
+				4A94B60127CBD066005537B8 /* CourseView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -137,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				4AC1F07327C899BB005572DC /* PreferenceKey.swift */,
+				4A94B5FB27CB807F005537B8 /* Course.swift */,
 				4AC1F06927C88E2C005572DC /* Tab.swift */,
 			);
 			path = Model;
@@ -147,7 +153,7 @@
 			children = (
 				4A78BAF027C3E56D00AAAEE0 /* Styles.swift */,
 				4AC1F07527C899FA005572DC /* Animations.swift */,
-				4A94B5FB27CB807F005537B8 /* Course.swift */,
+				4A94B60327CBDAFB005537B8 /* AnimatableFontModifier.swift */,
 			);
 			path = Styles;
 			sourceTree = "<group>";
@@ -230,9 +236,11 @@
 				4AC1F07227C8998F005572DC /* ScrollDetectionView.swift in Sources */,
 				4AC1F07627C899FA005572DC /* Animations.swift in Sources */,
 				4A78BAF727C537A200AAAEE0 /* BlobView.swift in Sources */,
+				4A94B60427CBDAFB005537B8 /* AnimatableFontModifier.swift in Sources */,
 				4A78BAE527C3A21300AAAEE0 /* ContentView.swift in Sources */,
 				4AC1F07427C899BB005572DC /* PreferenceKey.swift in Sources */,
 				4A94B60027CBCEC4005537B8 /* CourseItem.swift in Sources */,
+				4A94B60227CBD066005537B8 /* CourseView.swift in Sources */,
 				4AC1F07027C8994E005572DC /* FeaturedItem.swift in Sources */,
 				4AC1F06E27C89913005572DC /* NavigationBar.swift in Sources */,
 				4A94B5FC27CB807F005537B8 /* Course.swift in Sources */,
