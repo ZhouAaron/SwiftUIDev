@@ -55,6 +55,8 @@ struct CourseView: View {
             Image(course.image)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
+                .padding(20)
+                .frame(maxWidth: 500)
                 .matchedGeometryEffect(id: "image\(course.id)", in: namespace)
         )
         .background(
@@ -64,7 +66,7 @@ struct CourseView: View {
                 .matchedGeometryEffect(id: "background\(course.id)", in: namespace)
         )
         .mask(
-            RoundedRectangle(cornerRadius: 30, style: .continuous)
+            RoundedRectangle(cornerRadius: appear[0] ? 0 : 30, style: .continuous)
                 .matchedGeometryEffect(id: "mask\(course.id)", in: namespace)
         )
         .overlay(
