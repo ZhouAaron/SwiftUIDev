@@ -29,6 +29,7 @@
 		4AB20A5327CE41F500D7E2E0 /* InputStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB20A5227CE41F500D7E2E0 /* InputStyle.swift */; };
 		4AB20A5527CE4B3C00D7E2E0 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB20A5427CE4B3C00D7E2E0 /* ModalView.swift */; };
 		4AB20A5727CE4C5200D7E2E0 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB20A5627CE4C5200D7E2E0 /* SignInView.swift */; };
+		4AB20A5A27CE649800D7E2E0 /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB20A5927CE649800D7E2E0 /* AvatarView.swift */; };
 		4AC1F06A27C88E2C005572DC /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC1F06927C88E2C005572DC /* Tab.swift */; };
 		4AC1F06C27C897E3005572DC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC1F06B27C897E3005572DC /* HomeView.swift */; };
 		4AC1F06E27C89913005572DC /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC1F06D27C89912005572DC /* NavigationBar.swift */; };
@@ -62,6 +63,7 @@
 		4AB20A5227CE41F500D7E2E0 /* InputStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputStyle.swift; sourceTree = "<group>"; };
 		4AB20A5427CE4B3C00D7E2E0 /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
 		4AB20A5627CE4C5200D7E2E0 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		4AB20A5927CE649800D7E2E0 /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
 		4AC1F06927C88E2C005572DC /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 		4AC1F06B27C897E3005572DC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		4AC1F06D27C89912005572DC /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 				4AC1F07127C8998F005572DC /* ScrollDetectionView.swift */,
 				4A78BAF427C530A800AAAEE0 /* HexagonView.swift */,
 				4A94B5FF27CBCEC4005537B8 /* CourseItem.swift */,
+				4AB20A5927CE649800D7E2E0 /* AvatarView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 				4AB20A3527CDA31A00D7E2E0 /* SignUpView.swift in Sources */,
 				4AC1F06A27C88E2C005572DC /* Tab.swift in Sources */,
 				4AB20A5527CE4B3C00D7E2E0 /* ModalView.swift in Sources */,
+				4AB20A5A27CE649800D7E2E0 /* AvatarView.swift in Sources */,
 				4AC1F07227C8998F005572DC /* ScrollDetectionView.swift in Sources */,
 				4AC1F07627C899FA005572DC /* Animations.swift in Sources */,
 				4A78BAF727C537A200AAAEE0 /* BlobView.swift in Sources */,
