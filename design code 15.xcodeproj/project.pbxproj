@@ -102,11 +102,11 @@
 			isa = PBXGroup;
 			children = (
 				4A78BAE227C3A21300AAAEE0 /* design_code_15App.swift */,
+				4AC1F07727CA04F8005572DC /* Navigation */,
 				4AC1F07B27CA05A6005572DC /* Styles */,
 				4AC1F07A27CA0570005572DC /* Model */,
 				4AC1F07927CA054A005572DC /* Components */,
 				4AC1F07827CA0532005572DC /* Views */,
-				4AC1F07727CA04F8005572DC /* Navigation */,
 				4A78BAE627C3A21400AAAEE0 /* Assets.xcassets */,
 				4A78BAE827C3A21400AAAEE0 /* Preview Content */,
 			);
@@ -119,6 +119,16 @@
 				4A78BAE927C3A21400AAAEE0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4AB20A5827CE5A5D00D7E2E0 /* Modals */ = {
+			isa = PBXGroup;
+			children = (
+				4AB20A3427CDA31A00D7E2E0 /* SignUpView.swift */,
+				4AB20A5427CE4B3C00D7E2E0 /* ModalView.swift */,
+				4AB20A5627CE4C5200D7E2E0 /* SignInView.swift */,
+			);
+			path = Modals;
 			sourceTree = "<group>";
 		};
 		4AC1F07727CA04F8005572DC /* Navigation */ = {
@@ -139,9 +149,7 @@
 				4A94B5FD27CBC489005537B8 /* MatchedView.swift */,
 				4A94B60127CBD066005537B8 /* CourseView.swift */,
 				4A7DACA627CCF3A700BF2962 /* SearchView.swift */,
-				4AB20A3427CDA31A00D7E2E0 /* SignUpView.swift */,
-				4AB20A5427CE4B3C00D7E2E0 /* ModalView.swift */,
-				4AB20A5627CE4C5200D7E2E0 /* SignInView.swift */,
+				4AB20A5827CE5A5D00D7E2E0 /* Modals */,
 			);
 			path = Views;
 			sourceTree = "<group>";

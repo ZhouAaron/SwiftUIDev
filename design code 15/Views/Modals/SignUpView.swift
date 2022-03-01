@@ -59,6 +59,8 @@ struct SignUpView: View {
             .buttonStyle(.angular)
             .tint(.accentColor)
             .controlSize(.large)
+            .shadow(color: Color("Shadow").opacity(0.2), radius: 30, x: 0, y: 30)
+            
             Group {
                 Text("By clicking on ")
                 + Text("_Create an account_").foregroundColor(.primary.opacity(0.7))
@@ -89,11 +91,6 @@ struct SignUpView: View {
         )
         .coordinateSpace(name: "container")
         .strokeStyle(cornerRadius: 30)
-        .shadow(color: Color("Shadow").opacity(0.2), radius: 30, x: 0, y: 30)
-        .padding(20)
-        .background(
-            Image("Blob 1").offset(x: 200, y: -100)
-        )
         .onChange(of: focusedField) { value in
             withAnimation {
                 if value == .email {
