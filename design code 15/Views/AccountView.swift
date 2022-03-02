@@ -13,6 +13,8 @@ struct AccountView: View {
     @State var address: Address = Address(id: 1, country: "China")
     @Environment(\.dismiss) var dismiss
     @AppStorage("isLogged") var isLogged = false
+    @AppStorage("isLiteMode") var isLiteMode = true
+    @ObservedObject var coinModel = CoinModel()
     
     func fetchAddress() async {
         do {
@@ -31,8 +33,15 @@ struct AccountView: View {
                 
                 menu
                 
+                Section {
+                    Toggle(isOn: $isLiteMode) {
+                        Label("Lite Mode", systemImage: isLiteMode ? "tortoise" : "hare")
+                    }
+                }
+                .accentColor(.primary)
                 links
                 
+                coins
                 Button {
                     isLogged = false
                     dismiss()
@@ -42,9 +51,11 @@ struct AccountView: View {
                 }
                 .task {
                    await fetchAddress()
+                    await coinModel.fetchCoins()
                 }
                 .refreshable {
                     await fetchAddress()
+                    await coinModel.fetchCoins()
                 }
             }
             .listStyle(.insetGrouped)
@@ -134,6 +145,27 @@ struct AccountView: View {
         }
         .accentColor(.primary)
         .listRowSeparator(.hidden)
+    }
+    var coins: some View {
+        Section(header: Text("Coins")) {
+            ForEach(coinModel.coins) { coin in
+                HStack {
+                    AsyncImage(url: URL(string: coin.logo)) { image in
+                        image.resizable()
+                            .aspectRatio(contentMode: .fit)
+                    } placeholder: {
+                        ProgressView()
+                    }
+                    .frame(width: 32, height: 32)
+                    VStack(alignment: .leading, spacing: 4) {
+                        Text(coin.coin_name)
+                        Text(coin.acronym)
+                            .font(.caption)
+                            .foregroundColor(.secondary)
+                    }
+                }
+            }
+        }
     }
     var pinButton: some View {
         Button { isPinned.toggle() } label: {
