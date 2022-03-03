@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+ 
 @main
 struct design_code_15App: App {
     @StateObject var model = Model()
@@ -17,3 +17,4 @@ struct design_code_15App: App {
         }
     }
 }
+
