@@ -32,6 +32,10 @@
 		4AB20A5A27CE649800D7E2E0 /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB20A5927CE649800D7E2E0 /* AvatarView.swift */; };
 		4AB20A5D27CE726E00D7E2E0 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB20A5C27CE726E00D7E2E0 /* Address.swift */; };
 		4AB20A5F27CE78F500D7E2E0 /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB20A5E27CE78F500D7E2E0 /* Coin.swift */; };
+		4AB20A6127CEF7BB00D7E2E0 /* CircularView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB20A6027CEF7BB00D7E2E0 /* CircularView.swift */; };
+		4AB20A6327CEF9B200D7E2E0 /* CourseSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB20A6227CEF9B200D7E2E0 /* CourseSection.swift */; };
+		4AB20A6527CEFDA500D7E2E0 /* SectionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB20A6427CEFDA500D7E2E0 /* SectionRow.swift */; };
+		4AB20A6727CEFE8D00D7E2E0 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB20A6627CEFE8D00D7E2E0 /* SectionView.swift */; };
 		4AC1F06A27C88E2C005572DC /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC1F06927C88E2C005572DC /* Tab.swift */; };
 		4AC1F06C27C897E3005572DC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC1F06B27C897E3005572DC /* HomeView.swift */; };
 		4AC1F06E27C89913005572DC /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC1F06D27C89912005572DC /* NavigationBar.swift */; };
@@ -68,6 +72,10 @@
 		4AB20A5927CE649800D7E2E0 /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
 		4AB20A5C27CE726E00D7E2E0 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
 		4AB20A5E27CE78F500D7E2E0 /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
+		4AB20A6027CEF7BB00D7E2E0 /* CircularView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularView.swift; sourceTree = "<group>"; };
+		4AB20A6227CEF9B200D7E2E0 /* CourseSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseSection.swift; sourceTree = "<group>"; };
+		4AB20A6427CEFDA500D7E2E0 /* SectionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionRow.swift; sourceTree = "<group>"; };
+		4AB20A6627CEFE8D00D7E2E0 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
 		4AC1F06927C88E2C005572DC /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 		4AC1F06B27C897E3005572DC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		4AC1F06D27C89912005572DC /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
@@ -154,6 +162,7 @@
 				4AC1F06B27C897E3005572DC /* HomeView.swift */,
 				4A94B5FD27CBC489005537B8 /* MatchedView.swift */,
 				4A94B60127CBD066005537B8 /* CourseView.swift */,
+				4AB20A6627CEFE8D00D7E2E0 /* SectionView.swift */,
 				4A7DACA627CCF3A700BF2962 /* SearchView.swift */,
 				4AB20A5827CE5A5D00D7E2E0 /* Modals */,
 			);
@@ -169,6 +178,8 @@
 				4A78BAF427C530A800AAAEE0 /* HexagonView.swift */,
 				4A94B5FF27CBCEC4005537B8 /* CourseItem.swift */,
 				4AB20A5927CE649800D7E2E0 /* AvatarView.swift */,
+				4AB20A6027CEF7BB00D7E2E0 /* CircularView.swift */,
+				4AB20A6427CEFDA500D7E2E0 /* SectionRow.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -183,6 +194,7 @@
 				4AB20A3227CD095300D7E2E0 /* Suggestion.swift */,
 				4AB20A5C27CE726E00D7E2E0 /* Address.swift */,
 				4AB20A5E27CE78F500D7E2E0 /* Coin.swift */,
+				4AB20A6227CEF9B200D7E2E0 /* CourseSection.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -277,6 +289,7 @@
 				4A78BAF127C3E56D00AAAEE0 /* Styles.swift in Sources */,
 				4AB20A3527CDA31A00D7E2E0 /* SignUpView.swift in Sources */,
 				4AC1F06A27C88E2C005572DC /* Tab.swift in Sources */,
+				4AB20A6127CEF7BB00D7E2E0 /* CircularView.swift in Sources */,
 				4AB20A5527CE4B3C00D7E2E0 /* ModalView.swift in Sources */,
 				4AB20A5D27CE726E00D7E2E0 /* Address.swift in Sources */,
 				4AB20A5A27CE649800D7E2E0 /* AvatarView.swift in Sources */,
@@ -288,6 +301,7 @@
 				4A7DACA727CCF3A700BF2962 /* SearchView.swift in Sources */,
 				4AC1F07427C899BB005572DC /* PreferenceKey.swift in Sources */,
 				4AB20A5F27CE78F500D7E2E0 /* Coin.swift in Sources */,
+				4AB20A6327CEF9B200D7E2E0 /* CourseSection.swift in Sources */,
 				4A94B60027CBCEC4005537B8 /* CourseItem.swift in Sources */,
 				4A94B60227CBD066005537B8 /* CourseView.swift in Sources */,
 				4AB20A5727CE4C5200D7E2E0 /* SignInView.swift in Sources */,
@@ -295,8 +309,10 @@
 				4AC1F06E27C89913005572DC /* NavigationBar.swift in Sources */,
 				4AB20A5127CE374E00D7E2E0 /* AngularButtonStyle.swift in Sources */,
 				4A94B60627CC87BB005537B8 /* Model.swift in Sources */,
+				4AB20A6727CEFE8D00D7E2E0 /* SectionView.swift in Sources */,
 				4A94B5FC27CB807F005537B8 /* Course.swift in Sources */,
 				4A94B5FE27CBC489005537B8 /* MatchedView.swift in Sources */,
+				4AB20A6527CEFDA500D7E2E0 /* SectionRow.swift in Sources */,
 				4A78BAE327C3A21300AAAEE0 /* design_code_15App.swift in Sources */,
 				4A78BAF927C7B5B300AAAEE0 /* TabBar.swift in Sources */,
 			);
