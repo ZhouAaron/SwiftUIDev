@@ -36,6 +36,9 @@
 		4AB20A6327CEF9B200D7E2E0 /* CourseSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB20A6227CEF9B200D7E2E0 /* CourseSection.swift */; };
 		4AB20A6527CEFDA500D7E2E0 /* SectionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB20A6427CEFDA500D7E2E0 /* SectionRow.swift */; };
 		4AB20A6727CEFE8D00D7E2E0 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB20A6627CEFE8D00D7E2E0 /* SectionView.swift */; };
+		4AB20A8327D0931000D7E2E0 /* PlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB20A8227D0931000D7E2E0 /* PlayView.swift */; };
+		4AB20A8527D096CB00D7E2E0 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB20A8427D096CB00D7E2E0 /* ExploreView.swift */; };
+		4AB20A8727D0978400D7E2E0 /* SmallCourseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB20A8627D0978400D7E2E0 /* SmallCourseItem.swift */; };
 		4AC1F06A27C88E2C005572DC /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC1F06927C88E2C005572DC /* Tab.swift */; };
 		4AC1F06C27C897E3005572DC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC1F06B27C897E3005572DC /* HomeView.swift */; };
 		4AC1F06E27C89913005572DC /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC1F06D27C89912005572DC /* NavigationBar.swift */; };
@@ -76,6 +79,9 @@
 		4AB20A6227CEF9B200D7E2E0 /* CourseSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseSection.swift; sourceTree = "<group>"; };
 		4AB20A6427CEFDA500D7E2E0 /* SectionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionRow.swift; sourceTree = "<group>"; };
 		4AB20A6627CEFE8D00D7E2E0 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
+		4AB20A8227D0931000D7E2E0 /* PlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayView.swift; sourceTree = "<group>"; };
+		4AB20A8427D096CB00D7E2E0 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		4AB20A8627D0978400D7E2E0 /* SmallCourseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallCourseItem.swift; sourceTree = "<group>"; };
 		4AC1F06927C88E2C005572DC /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 		4AC1F06B27C897E3005572DC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		4AC1F06D27C89912005572DC /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
@@ -160,6 +166,7 @@
 			children = (
 				4A78BAF227C4662100AAAEE0 /* AccountView.swift */,
 				4AC1F06B27C897E3005572DC /* HomeView.swift */,
+				4AB20A8427D096CB00D7E2E0 /* ExploreView.swift */,
 				4A94B5FD27CBC489005537B8 /* MatchedView.swift */,
 				4A94B60127CBD066005537B8 /* CourseView.swift */,
 				4AB20A6627CEFE8D00D7E2E0 /* SectionView.swift */,
@@ -180,6 +187,8 @@
 				4AB20A5927CE649800D7E2E0 /* AvatarView.swift */,
 				4AB20A6027CEF7BB00D7E2E0 /* CircularView.swift */,
 				4AB20A6427CEFDA500D7E2E0 /* SectionRow.swift */,
+				4AB20A8227D0931000D7E2E0 /* PlayView.swift */,
+				4AB20A8627D0978400D7E2E0 /* SmallCourseItem.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -284,12 +293,15 @@
 				4AC1F06C27C897E3005572DC /* HomeView.swift in Sources */,
 				4AB20A5327CE41F500D7E2E0 /* InputStyle.swift in Sources */,
 				4AB20A3327CD095300D7E2E0 /* Suggestion.swift in Sources */,
+				4AB20A8327D0931000D7E2E0 /* PlayView.swift in Sources */,
 				4A78BAF327C4662100AAAEE0 /* AccountView.swift in Sources */,
 				4A78BAF527C530A800AAAEE0 /* HexagonView.swift in Sources */,
 				4A78BAF127C3E56D00AAAEE0 /* Styles.swift in Sources */,
 				4AB20A3527CDA31A00D7E2E0 /* SignUpView.swift in Sources */,
 				4AC1F06A27C88E2C005572DC /* Tab.swift in Sources */,
+				4AB20A8727D0978400D7E2E0 /* SmallCourseItem.swift in Sources */,
 				4AB20A6127CEF7BB00D7E2E0 /* CircularView.swift in Sources */,
+				4AB20A8527D096CB00D7E2E0 /* ExploreView.swift in Sources */,
 				4AB20A5527CE4B3C00D7E2E0 /* ModalView.swift in Sources */,
 				4AB20A5D27CE726E00D7E2E0 /* Address.swift in Sources */,
 				4AB20A5A27CE649800D7E2E0 /* AvatarView.swift in Sources */,
