@@ -56,7 +56,7 @@
 
 /* Begin PBXFileReference section */
 		4A171D6529C9E1FB005D9F37 /* SwiftUIDevApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftUIDevApp.swift; sourceTree = "<group>"; };
-		4A78BADF27C3A21300AAAEE0 /* design code.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "design code.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A78BADF27C3A21300AAAEE0 /* SwiftUIDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A78BAE427C3A21300AAAEE0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4A78BAE627C3A21400AAAEE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A78BAE927C3A21400AAAEE0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -125,7 +125,7 @@
 		4A78BAE027C3A21300AAAEE0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4A78BADF27C3A21300AAAEE0 /* design code.app */,
+				4A78BADF27C3A21300AAAEE0 /* SwiftUIDev.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -303,7 +303,7 @@
 			);
 			name = SwiftUIDev;
 			productName = "design code 15";
-			productReference = 4A78BADF27C3A21300AAAEE0 /* design code.app */;
+			productReference = 4A78BADF27C3A21300AAAEE0 /* SwiftUIDev.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -544,7 +544,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Aaron.SwiftUIDev;
-				PRODUCT_NAME = "design code";
+				PRODUCT_NAME = SwiftUIDev;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -574,7 +574,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Aaron.SwiftUIDev;
-				PRODUCT_NAME = "design code";
+				PRODUCT_NAME = SwiftUIDev;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
